@@ -1,0 +1,28 @@
+You are checking whether a user's question can be answered using ONLY data that actually exists in the database described below. Do not generate SQL or an answer yet — just check.
+
+## Database context
+{{schema_context}}
+
+## User question
+"{{question}}"
+
+## Instructions
+Work through these checks using only the database context above. It may include table and column definitions, relationships, and lists of known values (such as distinct values, categories, or sample rows).
+
+1. Concepts and fields: Identify the data concepts the question depends on (the things being counted, measured, filtered, grouped, or compared). Each one must map to something that exists in the schema, such as a table or a column. Allow for ordinary naming differences like plurals, underscores, abbreviations, and clear synonyms of a schema name (e.g. "customers" for a `customer` table). If a required concept has no counterpart in the schema, the question is NOT answerable.
+
+2. Named values: Identify any specific named value in the question (a person, product, category, location, status, code, ID, date label, or any other literal used as a filter). If the context gives the complete list of valid values for the relevant column, the value must match one of them exactly (case-insensitive, ignoring surrounding whitespace). Do not assume the user meant a similar-sounding value. A close resemblance is not a match. If it isn't in the complete list, the question is NOT answerable as asked.
+
+3. Incomplete value lists: If the context shows only a partial sample of values for a column (for example, a few examples of a high-cardinality column), absence from that sample does NOT prove the value doesn't exist. In that case do not reject the question on that basis alone.
+
+4. Generic questions: A question that references only concepts present in the schema and names no specific value (counts, totals, averages, trends, rankings, comparisons, distributions) is answerable: true.
+
+5. Out-of-scope questions: If the question is unrelated to the data in the database (general knowledge, opinions, or requests that need external information), it is NOT answerable.
+
+If the question is answerable, respond with answerable: true.
+
+If it is not answerable, respond with answerable: false. In reason, state plainly and specifically what is missing (e.g. "'Revenue' is not a field in this database." or "'Berlin' is not a listed value for the city column."). Where it helps the user, briefly mention what does exist instead (e.g. the relevant real values or fields from the schema), without guessing at what they meant.
+
+## Output format
+Respond with ONLY a JSON object, no other text, no markdown code fences:
+{"answerable": true or false, "reason": "empty string if answerable is true, otherwise a plain-English explanation"}

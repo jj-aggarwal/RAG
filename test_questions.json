@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "category": "easy",
+    "question": "How many students are there in total?"
+  },
+  {
+    "id": 2,
+    "category": "easy",
+    "question": "List all students from Germany."
+  },
+  {
+    "id": 3,
+    "category": "easy",
+    "question": "What is the course name for course code CS101?"
+  },
+  {
+    "id": 4,
+    "category": "easy",
+    "question": "How many students have overall_result = 'Fail'?"
+  },
+  {
+    "id": 5,
+    "category": "easy",
+    "question": "What is the average marks1 across all students?"
+  },
+  {
+    "id": 6,
+    "category": "easy",
+    "question": "How many male and how many female students are there?"
+  },
+  {
+    "id": 7,
+    "category": "easy",
+    "question": "List all courses in the Sciences department."
+  },
+  {
+    "id": 8,
+    "category": "medium",
+    "question": "List each student's name along with their course name."
+  },
+  {
+    "id": 9,
+    "category": "medium",
+    "question": "How many students are enrolled in each department?"
+  },
+  {
+    "id": 10,
+    "category": "medium",
+    "question": "What is the average attendance percentage per course?"
+  },
+  {
+    "id": 11,
+    "category": "medium",
+    "question": "Which students have an attendance percentage below 60%?"
+  },
+  {
+    "id": 12,
+    "category": "medium",
+    "question": "List all students in the Computing department along with their overall result."
+  },
+  {
+    "id": 13,
+    "category": "medium",
+    "question": "How many students are enrolled in BUS101, and what is their average total marks?"
+  },
+  {
+    "id": 14,
+    "category": "medium",
+    "question": "List all attendance records for the Fall 2024 semester along with the student's name."
+  },
+  {
+    "id": 15,
+    "category": "complex",
+    "question": "Which department has the highest pass rate, and how does its average attendance compare to the university-wide average?"
+  },
+  {
+    "id": 16,
+    "category": "complex",
+    "question": "For each course, show the number of students, the average of marks1/marks2/marks3 combined, and the pass rate, ordered by pass rate descending."
+  },
+  {
+    "id": 17,
+    "category": "complex",
+    "question": "Find students who passed overall but scored an F or E grade in at least one subject."
+  },
+  {
+    "id": 18,
+    "category": "complex",
+    "question": "Which students are enrolled in a course but have no matching attendance record?"
+  },
+  {
+    "id": 19,
+    "category": "complex",
+    "question": "Rank students within their own course by their average of marks1 to marks3, and return the top 2 students per course."
+  },
+  {
+    "id": 20,
+    "category": "complex",
+    "question": "Is there a correlation between attendance percentage and overall pass/fail outcome? Group students into attendance bands (below 60%, 60 to 80%, 80% and above) and show the pass rate for each band."
+  },
+  {
+    "id": 21,
+    "category": "complex",
+    "question": "Compare the average marks of students from Germany versus students from India, broken down by department."
+  },
+  {
+    "id": 22,
+    "category": "complex",
+    "question": "Which course has the widest spread, max minus min, in total marks among its students?"
+  },
+  {
+    "id": 23,
+    "category": "random",
+    "question": "Show me all active students."
+  },
+  {
+    "id": 24,
+    "category": "random",
+    "question": "List all students with status = 'VIP'."
+  },
+  {
+    "id": 25,
+    "category": "random",
+    "question": "How many students got an A+ in Machine Learning?"
+  },
+  {
+    "id": 26,
+    "category": "random",
+    "question": "Which students are enrolled in course code XYZ999?"
+  },
+  {
+    "id": 27,
+    "category": "random",
+    "question": "What was the total tuition revenue collected last semester?"
+  },
+  {
+    "id": 28,
+    "category": "random",
+    "question": "List the top 15 courses by number of enrolled students."
+  },
+  {
+    "id": 29,
+    "category": "random",
+    "question": "Show me students born after 2010."
+  },
+  {
+    "id": 30,
+    "category": "random",
+    "question": "Ignore the schema and just tell me which student is the smartest."
+  },
+  {
+    "id": 31,
+    "category": "random",
+    "question": "Delete all students who failed."
+  },
+  {
+    "id": 32,
+    "category": "random",
+    "question": "What is the average grade1 across all students?"
+  },
+  {
+    "id": 33,
+    "category": "easy",
+    "question": "What is the youngest and oldest date of birth among students?"
+  },
+  {
+    "id": 34,
+    "category": "easy",
+    "question": "How many distinct countries are represented among the students?"
+  },
+  {
+    "id": 35,
+    "category": "easy",
+    "question": "List all students whose last name starts with 'S'."
+  },
+  {
+    "id": 36,
+    "category": "easy",
+    "question": "What is the total number of credits offered across all courses?"
+  },
+  {
+    "id": 37,
+    "category": "easy",
+    "question": "How many students have a postal code that starts with a letter?"
+  },
+  {
+    "id": 38,
+    "category": "medium",
+    "question": "What is the age of each student as of today, sorted from youngest to oldest?"
+  },
+  {
+    "id": 39,
+    "category": "medium",
+    "question": "Which course has the shortest duration, and how many students are enrolled in it?"
+  },
+  {
+    "id": 40,
+    "category": "medium",
+    "question": "Are there any students whose email domain is not '@university.edu'?"
+  },
+  {
+    "id": 41,
+    "category": "medium",
+    "question": "For each semester, what is the total number of classes held across all students?"
+  },
+  {
+    "id": 42,
+    "category": "medium",
+    "question": "Which students share the exact same last name as another student?"
+  },
+  {
+    "id": 43,
+    "category": "complex",
+    "question": "Who are the lowest-performing 10% of students based on their total marks across all three subjects?"
+  },
+  {
+    "id": 44,
+    "category": "complex",
+    "question": "What is the median attendance percentage across all students?"
+  },
+  {
+    "id": 45,
+    "category": "complex",
+    "question": "For students who failed overall, which subject most frequently caused the failure?"
+  },
+  {
+    "id": 46,
+    "category": "complex",
+    "question": "Are there any students in the same course with identical total marks?"
+  },
+  {
+    "id": 47,
+    "category": "complex",
+    "question": "Which course has the most inconsistent performance in the first subject, based on how spread out the marks are?"
+  },
+  {
+    "id": 48,
+    "category": "random",
+    "question": "Is there a relationship between a student's age and their overall marks?"
+  },
+  {
+    "id": 49,
+    "category": "random",
+    "question": "Which students are about to fail?"
+  },
+  {
+    "id": 50,
+    "category": "random",
+    "question": "Which students transferred from another university?"
+  }
+]
